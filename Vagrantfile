@@ -13,6 +13,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder "NodeServer/", "/NodeServer/"
   config.vm.synced_folder "NodeClient/", "/NodeClient/"
+  config.vm.synced_folder "Setup/", "/Setup/"
 
   config.vm.network "private_network", ip: "10.10.23.23"
 
