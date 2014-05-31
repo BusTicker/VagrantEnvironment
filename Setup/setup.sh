@@ -13,3 +13,9 @@ node --version
 cd ..
 hash -r
 
+sudo npm -g install express
+sudo npm -g install express-generator
+sudo npm -g install node-inspector
+sudo npm -g install nodemon
+sudo npm -g install forever
+
